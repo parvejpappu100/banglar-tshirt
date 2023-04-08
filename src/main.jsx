@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Main from './components/LayOut/Main';
 import Home from './components/Home/Home';
+import OrderReview from './components/OrderReview/OrderReview';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>
+      },
+      {
+        path: 'orders',
+        element: <OrderReview></OrderReview>
       }
     ]
   }

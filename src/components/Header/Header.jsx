@@ -28,13 +28,16 @@ const Header = () => {
             }`}
           >
             <li>
-              <Link to="/">Shop</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
               <Link to="/orders">Orders </Link>
             </li>
             <li>
-              <Link to="/inventory">Manage Inventory</Link>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
             </li>
             <li>
               <Link to="/login">Login</Link>
